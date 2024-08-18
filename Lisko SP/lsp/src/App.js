@@ -1,3 +1,9 @@
+/**
+ * The main React component that renders the payment processing system.
+ * It includes a credit card payment component and a PayPal payment component,
+ * both of which call the `handlePaymentComplete` function when a payment is
+ * successfully processed.
+ */
 import React from "react";
 import CreditCardPayment from "./components/CreditCardPayment";
 import PayPalPayment from "./components/PaypalPayment";
